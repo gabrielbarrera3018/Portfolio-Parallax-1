@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Portfolio de Quentin Cuoc" content="Mon portofolio avec mon résumé et mes différents projets.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Quentin</title>
+    <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <p href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </p>
+            <div class="langWrap">
+                <a href="#" language="french" class="lang active">FR</a>
+                <span>/</span>
+                <a href="#" language="english" class="lang">EN</a>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#home" onclick="window.open('#home', '_self');">Home</a></li>
+                    <li><a href="#about" onclick="window.open('#about', '_self');">À propos</a></li>
+                    <li><a href="#projects" onclick="window.open('#projects', '_self');">Mes projets</a></li>
+                    <li><a href="#contact" onclick="window.open('#contact', '_self');">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="banner1" id="home">
+        <h1>Quentin, </br> développeur web junior</h1>
+    </div>
+    <section class="about" id="about">
+        <h2 class="title-about">À propos de moi</h2>
+        <div class="flex-container">
+            <div class="column bio">
+                <p class="profile-description">
+                    Je m'appelle Quentin Cuoc, je suis développeur web full-stack junior. Je me suis récemment
+                    reconverti dans le métier de développeur après des études en langue étrangères appliquées. J'ai
+                    suivi une formation openclassrooms de niveau bac +2 dans laquelle
+                    j'ai appris à utiliser des outils tels que Bootstrap, Node.js, React.js, MySql, MongoDB ainsi que la
+                    création de sites web responsive, accessibles et bien référencés. J'ai aussi travaillé à titre
+                    personnel avec des outils tels que Wordpress, Next.js, Sanity.io,
+                    Puppeteer ou React Native.
+                </p>
+                <a class="bn632-hover bn27 cv" href=./entry-level-web-developer-resume-example.pdf>Voir mon
+                    Curriculum</a>
+            </div>
+            <div class="column skills" id="skills">
+                <h3>HTML</h3>
+                <div class="progress">
+                    <div class="progress-bar" data-progress="90">
+                        <span>90%</span>
+                    </div>
+                </div>
+                <h3>CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar" data-progress="80">
+                        <span>80%</span>
+                    </div>
+                </div>
+                <h3>Javascript</h3>
+                <div class="progress">
+                    <div class="progress-bar" data-progress="75">
+                        <span>75%</span>
+                    </div>
+                </div>
+                <h3>Databases</h3>
+                <div class="progress">
+                    <div class="progress-bar" data-progress="70">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="banner2"></div>
+    <section class="projects" id="projects">
+        <h2 class="title-projects">Mes projets</h2>
+        <div class="container-projects">
+            <div class="card">
+                <div class="box-img">
+                    <img src="./Images/artworks.jpg">
+                </div>
+                <div class="content">
+                    <h3>Artworks Hub</h3>
+                    <p class="description-artworks"><b>Une application MERN</b> pour partager des images avec l'aide de
+                        Redux et multer.<i> Si la page ne
+                            charge pas merci de patienter quelques secondes et de l'actualiser pour réveiller
+                            l'application Heroku.</i>
+                    </p>
+                    <div class="box-btn">
+                        <a class="bn632-hover bn27 link-project" href="https://github.com/Quentin7722/MERN-app-frontend"
+                            target="_blank">Code</a>
+                        <a class="bn632-hover bn27 link-project" href="https://lucid-pare-e63622.netlify.app/"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box-img">
+                    <img src="./Images/hulu.jpg">
+                </div>
+                <div class="content">
+                    <h3>Hulu</h3>
+                    <p class="description-hulu"><b>Un clone de la plateforme VOD Hulu</b> créé avec Next.js, Tailwind
+                        CSS et
+                        l'API The Movie Database.
+                    </p>
+                    <div class="box-btn">
+                        <a class="bn632-hover bn27 link-project" href="https://github.com/Quentin7722/Nextjs-Hulu-Clone"
+                            target="_blank">Code</a>
+                        <a class="bn632-hover bn27 link-project"
+                            href="https://nextjs-hulu-clone-c6im8yxkq-quentin7722.vercel.app/?genre=fetchTrending"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box-img">
+                    <img src="./Images/Chat.jpg">
+                </div>
+                <div class="content">
+                    <h3>Chat App</h3>
+                    <p class="description-chatApp"><b>Une application de chat</b> créé avec React.js, Node.js et
+                        Socket.IO.
+                    </p>
+                    <div class="box-btn">
+                        <a class="bn632-hover bn27 link-project"
+                            href="https://github.com/Quentin7722/React-Socketio-Chat-App" target="_blank">Code</a>
+                        <a class="bn632-hover bn27 link-project" href="https://blissful-lewin-6ee039.netlify.app/"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box-img">
+                    <img src="./Images/Sushi.jpg">
+                </div>
+                <div class="content">
+                    <h3>Sushi Shop</h3>
+                    <p class="description-sushi"><b>Un site de restaurant japonais</b> responsive créé avec
+                        React.js.
+                    </p>
+                    <div class="box-btn">
+                        <a class="bn632-hover bn27 link-project" href="https://github.com/Quentin7722/Sushi"
+                            target="_blank">Code</a>
+                        <a class="bn632-hover bn27 link-project" href="https://kind-galileo-80b082.netlify.app/"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box-img">
+                    <img src="./Images/Social-Media.PNG">
+                </div>
+                <div class="content">
+                    <h3>Groupomania</h3>
+                    <p class="description-socialNetwork"><b>Un réseau social</b> pour partager des images créé
+                        avec React.js, Node.js, Express.js, MySQL et Cloudinary. <i>Si la page ne charge pas merci de
+                            patienter quelques secondes et de l'actualiser pour
+                            réveiller l'application
+                            Heroku.</i>
+                    </p>
+                    <div class="box-btn">
+                        <a class="bn632-hover bn27 link-project" href="https://github.com/Quentin7722/Social-Media"
+                            target="_blank">Code</a>
+                        <a class="bn632-hover bn27 link-project" href="https://romantic-austin-282c49.netlify.app"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box-img">
+                    <img src="./Images/Flappy Bird Like.png">
+                </div>
+                <div class="content">
+                    <h3>Flappy Dragon</h3>
+                    <p class="description-flappyBird"><b>Un jeu Flappy Bird</b> créé à l'aide de
+                        Javascript et ses classes ES6.
+                    </p>
+                    <div class="box-btn">
+                        <a class="bn632-hover bn27 link-project"
+                            href="https://github.com/Quentin7722/Flappy-Bird-Vanilla-Javascript"
+                            target="_blank">Code</a>
+                        <a class="bn632-hover bn27 link-project"
+                            href="https://quentin7722.github.io/Flappy-Bird-Vanilla-Javascript/"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box-img">
+                    <img src="./Images/Quiz.png">
+                </div>
+                <div class="content">
+                    <h3>Quiz Quotes</h3>
+                    <p class="description-quiz"><b>Un quiz sur les citations célèbres</b> créé avec
+                        React
+                        Native et Expo.
+                    </p>
+                    <div class="box-btn">
+                        <a class="bn632-hover bn27 link-project"
+                            href="https://play.google.com/store/apps/details?id=com.quentinc.citaquiz"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box-img">
+                    <img src="./Images/Todo app.PNG">
+                </div>
+                <div class="content">
+                    <h3>Todo List</h3>
+                    <p class="description-todoList"><b>Une application Todo List</b> créée avec les languages HTML, CSS
+                        et
+                        Javascript.
+                    </p>
+                    <div class="box-btn">
+                        <a class="bn632-hover bn27 link-project" href="https://github.com/Quentin7722/Todo-App"
+                            target="_blank">Code</a>
+                        <a class="bn632-hover bn27 link-project" href="https://quentin7722.github.io/Todo-App/"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box-img">
+                    <img src="./Images/Memory Cards.jpg">
+                </div>
+                <div class="content">
+                    <h3>Memory Cards</h3>
+                    <p class="description-memoryCards"><b>Un jeu de cartes à mémoriser</b> créé avec les languages
+                        HTML,
+                        CSS
+                        et
+                        Javascript.
+                    </p>
+                    <div class="box-btn">
+                        <a class="bn632-hover bn27 link-project" href="https://github.com/Quentin7722/Memory-Cards"
+                            target="_blank">Code</a>
+                        <a class="bn632-hover bn27 link-project" href="https://quentin7722.github.io/Memory-Cards/"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="banner3"></div>
+    <section class="contact" id="contact">
+        <h2 class="title-contact">Contactez-Moi</h2>
+        <div class="flex-container">
+            <div class="column infos">
+                <div class="row">
+                    <i class="fas fa-user"></i>
+                    <div class="info">
+                        <div class="head">Nom,</div>
+                        <div class="sub-title">Quentin Cuoc</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fas fa-map-marker-alt"></i>
+                    <div class="info">
+                        <div class="head">Adresse,</div>
+                        <div class="sub-title">Lyon, France</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info">
+                        <div class="head">Email,</div>
+                        <div class="sub-title">quentin.cuoc@outlook.fr</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column form">
+                <form action="https://formsubmit.co/d6d2b0022452ce90e788b8d146509b97" method="POST">
+                    <label for="name">Nom : </label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email : </label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message : </label>
+                    <textarea type="text" id="message" name="message" required></textarea>
+                    <button class="bn632-hover bn27 send" type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Created By Quentin Cuoc | <i class="far fa-copyright"></i> 2021 All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
