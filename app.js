@@ -113,7 +113,7 @@ navbarLinks.addEventListener("click", (event) => {
 });
 
 window.addEventListener("scroll", () => {
-  console.log();
+  console.log("ok");
   const sectionPos = skillsSection.getBoundingClientRect().top;
   const sectionBot = skillsSection.getBoundingClientRect().bottom;
   const screenPos = window.innerHeight;
