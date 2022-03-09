@@ -32,7 +32,7 @@ const langData = {
     about: "À propos",
     projects: "Mes projets",
     profile:
-      " Je m'appelle Quentin Cuoc, je suis développeur web full-stack junior. Je me suis récemment reconverti dans le métier de développeur après des études en langue étrangères appliquées. J'ai suivi une formation openclassrooms de niveau bac +2 dans laquelle j'ai appris à utiliser des outils tels que Bootstrap, Node.js, React.js, MySql, MongoDB ainsi que la création de sites web responsive, accessibles et bien référencés. J'ai aussi travaillé à titre personnel avec des outils tels que Wordpress, Next.js, Sanity.io, Puppeteer ou React Native.",
+      " Je m'appelle Quentin Cuoc, je suis développeur web full-stack junior. Après des études en langue étrangères appliquées, j'ai décidé de commencer un nouveau parcours pour devenir développeur. J'ai suivi une formation openclassrooms de niveau bac +2 dans laquelle j'ai appris à utiliser des outils tels que Bootstrap, Node.js, React.js, MySql, MongoDB ainsi que la création de sites web responsive, accessibles et bien référencés. J'ai aussi travaillé à titre personnel avec des outils tels que Wordpress, Next.js, Sanity.io, Puppeteer ou React Native.",
     name: "Nom",
     adress: "Adresse",
     cv: "Voir mon Curriculum",
@@ -41,7 +41,7 @@ const langData = {
     todoApp:
       "<b>Une application Todo List</b> créée avec les languages HTML, CSS et Javascript.",
     artworks:
-      "<b>Une application MERN</b> pour partager des images avec l'aide de Redux et multer.<i> Si la page ne charge pas rechargez-là après 30s pour réveiller l'application Heroku.</i>",
+      "<b>Une application MERN</b> pour partager des images créée avec l'aide de Redux et multer.<i> Si la page ne charge pas rechargez-là après 30s pour réveiller l'application Heroku.</i>",
     flappyBird:
       "<b>Un jeu Flappy Bird</b> créé à l'aide de Javascript et ses classes ES6.",
     socialNetwork:
@@ -60,7 +60,7 @@ const langData = {
     about: "About Me",
     projects: "My projects",
     profile:
-      "My name is Quentin Cuoc, I'm a full stack web developper junior. I recently reconverted in the job of web developper after studies in foreign languages. I had an openclassrooms formation in which I learned to use tools such as Bootstrap, Node.js, React.js, MySql, MongoDB as well as responsive design, accessibility and referencement. I also taunt myself tools like Wordpress, Next.js, Sanity.io, Puppeteer and React Native.",
+      "My name is Quentin Cuoc, I'm a junior full stack web developper. After studying foreign languages, I decided to change my goals and started to learn web development. I thus followed an openclassrooms formation during which I learned to use several tools such as Bootstrap, Node.js, React.js, MySql, MongoDB as well as responsive design, accessibility and referencement. I also worked on my own with tools like Wordpress, Next.js, Sanity.io, Puppeteer and React Native.",
     name: "Name",
     adress: "Adress",
     cv: "See my résumé",
@@ -69,11 +69,11 @@ const langData = {
     todoApp:
       "<b>Todo List application</b> built with HTML, CSS and Javascript.",
     artworks:
-      "<b>MERN application</b> to share content built with Redux and Multer.<i> Might need to reload the page after 30s to awake heroku app.</i>",
+      "<b>MERN application</b> built with Redux and Multer to share images.<i> Might need to reload the page after 30s to awake heroku app.</i>",
     flappyBird:
       "<b>Flappy bird game</b> built with Javascript and ES6 classes.",
     socialNetwork:
-      "<b>A social network</b> to share content built with React.js, Node.js, Express.js, MySQL and Cloudinary.<i> Might need to reload the page after 30s to awake heroku app.</i>",
+      "<b>A social network</b> built with React.js, Node.js, Express.js, MySQL and Cloudinary to share images.<i> Might need to reload the page after 30s to awake heroku app.</i>",
     memoryCards:
       "<b>Memory cards game</b> built with HTML, CSS and Javascript.",
     quiz: "<b>A famous quotes quiz</b> built with React Native and Expo.",
