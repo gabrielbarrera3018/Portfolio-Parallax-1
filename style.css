@@ -579,7 +579,7 @@ footer {
     .card{
         margin: 35px 0;
     }
-    .card:hover, .card:active{
+    .card:hover{
         height: 545px;
     }
 }
