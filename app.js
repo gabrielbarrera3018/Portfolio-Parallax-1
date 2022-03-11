@@ -41,11 +41,11 @@ const langData = {
     todoApp:
       "<b>Une application Todo List</b> créée avec les languages HTML, CSS et Javascript.",
     artworks:
-      "<b>Une application MERN</b> pour partager des images créée avec l'aide de Redux et multer.<i> Si la page ne charge pas rechargez-là après 30s pour réveiller l'application Heroku.</i>",
+      "<b>Une application MERN</b> pour partager des images créée avec l'aide de Redux et multer.<i>Si le serveur ne répond pas merci de patienter quelques secondes et d'actualiser pour réveiller l'application Heroku.</i>",
     flappyBird:
       "<b>Un jeu Flappy Bird</b> créé à l'aide de Javascript et ses classes ES6.",
     socialNetwork:
-      "<b>Un réseau social</b> pour partager des images créé avec React.js, Node.js, Express.js, MySQL et Cloudinary.<i> Si la page ne charge pas rechargez-là après 30s pour réveiller l'application Heroku.</i>",
+      "<b>Un réseau social</b> pour partager des images créé avec React.js, Node.js, Express.js, MySQL et Cloudinary.<i>Si le serveur ne répond pas merci de patienter quelques secondes et d'actualiser pour réveiller l'application Heroku.</i>",
     memoryCards:
       "<b>Un jeu de carte à mémoriser</b> créé avec les languages HTML, CSS et Javascript.",
     quiz: "<b>Un quiz sur les citations célèbres</b> créé avec React Native et Expo.",
