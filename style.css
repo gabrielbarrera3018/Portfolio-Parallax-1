@@ -580,6 +580,6 @@ footer {
         margin: 35px 0;
     }
     .card:hover{
-        height: fit-content;
+        height: 535px;
     }
 }
